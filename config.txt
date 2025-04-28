@@ -1,0 +1,6 @@
+PDF: Recibo de Pagamento.pdf
+Excel: emails.xlsx
+Selecao: selecao.txt
+Conexao: dados_conexao.xlsx
+Empresa1: EMPRESA 1
+Empresa2: EMPRESA 2
