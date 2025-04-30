@@ -141,7 +141,7 @@ class App:
             win.destroy()
 
     def iniciar_servidor(self, arquivo_html):
-        caminho_projeto = os.path.dirname(os.path.realpath(__file__))
+        caminho_projeto = os.path.dirname(os.path.abspath(__file__))
         os.chdir(caminho_projeto)
 
         subprocess.Popen(['python', '-m', 'http.server', '5500'])
