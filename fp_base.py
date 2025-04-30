@@ -38,7 +38,7 @@ class PdfComNomes:
         return empresa, tipo_recibo, enviar_email
 
     def carregar_nomes(self):
-        df = pd.read_excel(self.excel_path)
+        df = pd.read_excel(self.excel_path, sheet_name=self.empresa)
         nomes = df.iloc[:, 0].dropna().astype(str).tolist()
         return nomes
 
